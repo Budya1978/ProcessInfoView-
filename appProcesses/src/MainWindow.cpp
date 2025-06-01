@@ -17,9 +17,9 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+    createLogger();
     ui->setupUi(this);
     createView();
-    createLogger();
     createProcessHandler();
     createChart();
     setupChart(ui->chartWidget);
@@ -87,7 +87,7 @@ void MainWindow::createProcessHandler()
     handler->moveToThread(thread);
     connect(handler, &ProcessInformationHandler::sendProcessInfo, this, &MainWindow::sendProcessInfo, Qt::QueuedConnection);
     connect(timer, &QTimer::timeout, handler, &ProcessInformationHandler::processing, Qt::QueuedConnection);
-    connect(handler, &ProcessInformationHandler::sendLogMessage, this, &MainWindow::sendLogMessage);
+    connect(handler, &ProcessInformationHandler::sendLogMessage, this, &MainWindow::sendLogMessage, Qt::QueuedConnection);
 
     connect(qApp, &QCoreApplication::aboutToQuit, thread, &QThread::quit);
     connect(thread, &QThread::finished, handler, &ProcessInformationHandler::deleteLater);
@@ -190,7 +190,7 @@ void MainWindow::selectShowChart()
     if(twIndex.isValid()){
         if(twIndex.row() < mProcesses.count()){
             scPID = mProcesses[twIndex.row()].mPid;
-            axisY->setTitleText("Память (килобайты) для процесса " + mProcesses[twIndex.row()].getTextValue(1) + " pid:" + mProcesses[twIndex.row()].getTextValue(0));
+            axisY->setTitleText("Память (килобайты)\nдля процесса " + mProcesses[twIndex.row()].getTextValue(1) + "\npid:" + mProcesses[twIndex.row()].getTextValue(0));
             series->clear();
             flagShowChart = true;
         }

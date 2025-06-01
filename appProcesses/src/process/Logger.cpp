@@ -7,8 +7,9 @@
  * \param parent
  */
 Logger::Logger(QObject *parent)
-    : QObject{parent}, logFile("app_process.log")
+    : QObject{parent}
 {
+    logFile.setFileName("app_process.log");
     if (!logFile.open(QIODevice::Append | QIODevice::Text)) {
         qWarning("Не удалось открыть лог-файл для записи.");
     } else {

@@ -376,7 +376,6 @@ D:/Source/My/ProcessInfoView-/appProcesses/src/process/Logger.h
  mdp:C:/Qt/6.9.0/msvc2022_64/include/QtCore/qyieldcpu.h
  mdp:D:/Source/My/ProcessInfoView-/appProcesses/src/process/Logger.h
 D:/Source/My/ProcessInfoView-/appProcesses/src/process/ProcessInfo.h
-D:/Source/My/ProcessInfoView-/appProcesses/src/process/Logger.cpp
 D:/Source/My/ProcessInfoView-/appProcesses/src/process/ProcessInformationHandler.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.9.0/msvc2022_64/include/QtCore/QCoreApplication
@@ -516,6 +515,7 @@ D:/Source/My/ProcessInfoView-/appProcesses/src/process/ProcessInformationHandler
  mdp:C:/Qt/6.9.0/msvc2022_64/include/QtCore/qyieldcpu.h
  mdp:D:/Source/My/ProcessInfoView-/appProcesses/src/process/ProcessInfo.h
  mdp:D:/Source/My/ProcessInfoView-/appProcesses/src/process/ProcessInformationHandler.h
+D:/Source/My/ProcessInfoView-/appProcesses/src/process/Logger.cpp
 D:/Source/My/ProcessInfoView-/appProcesses/src/process/ProcessModel.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.9.0/msvc2022_64/include/QtCore/QAbstractTableModel
