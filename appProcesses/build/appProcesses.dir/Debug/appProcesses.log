@@ -1,0 +1,11 @@
+﻿  Automatic MOC and UIC for target appProcesses
+  1>
+  Building Custom Rule D:/Source/My/ProcessInfoView-/appProcesses/src/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  main.cpp
+  MainWindow.cpp
+  ProcessInformationHandler.cpp
+  Logger.cpp
+  ProcessModel.cpp
+  Generating Code...
+  appProcesses.vcxproj -> D:\Source\My\ProcessInfoView-\appProcesses\build\Debug\appProcesses.exe

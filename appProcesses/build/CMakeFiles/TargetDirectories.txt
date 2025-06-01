@@ -1,0 +1,4 @@
+D:/Source/My/ProcessInfoView-/appProcesses/build/CMakeFiles/appProcesses.dir
+D:/Source/My/ProcessInfoView-/appProcesses/build/CMakeFiles/INSTALL.dir
+D:/Source/My/ProcessInfoView-/appProcesses/build/CMakeFiles/ALL_BUILD.dir
+D:/Source/My/ProcessInfoView-/appProcesses/build/CMakeFiles/ZERO_CHECK.dir

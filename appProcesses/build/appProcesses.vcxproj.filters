@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Source\My\ProcessInfoView-\appProcesses\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Source\My\ProcessInfoView-\appProcesses\src\MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Source\My\ProcessInfoView-\appProcesses\src\process\ProcessInformationHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Source\My\ProcessInfoView-\appProcesses\src\process\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Source\My\ProcessInfoView-\appProcesses\src\process\ProcessModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files\Generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Source\My\ProcessInfoView-\appProcesses\src\MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Source\My\ProcessInfoView-\appProcesses\src\process\ProcessInformationHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Source\My\ProcessInfoView-\appProcesses\src\process\ProcessInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Source\My\ProcessInfoView-\appProcesses\src\process\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Source\My\ProcessInfoView-\appProcesses\src\process\ProcessModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\include_Debug\ui_MainWindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\include_Release\ui_MainWindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\include_MinSizeRel\ui_MainWindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\include_RelWithDebInfo\ui_MainWindow.h">
+      <Filter>Source Files\Generated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Source\My\ProcessInfoView-\appProcesses\build\CMakeFiles\6154068931a9d6fc22c4bf62e89f1fe7\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Source\My\ProcessInfoView-\appProcesses\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Source\My\ProcessInfoView-\appProcesses\src\MainWindow.ui" />
+    <None Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\autouic_Debug.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\autouic_Release.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\autouic_MinSizeRel.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+    <None Include="D:\Source\My\ProcessInfoView-\appProcesses\build\appProcesses_autogen\autouic_RelWithDebInfo.stamp">
+      <Filter>Source Files\Generated</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FBEF4B1F-AE01-3773-A8BF-DA4627CBC493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{099AD14F-13DC-3702-84A5-65855CBE6F99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8FFCE31C-E345-339B-B9BB-D05AE9595552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Generated">
+      <UniqueIdentifier>{29A06DF1-9BC6-3D7C-995C-9A1CED1EA59C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

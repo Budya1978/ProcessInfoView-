@@ -1,0 +1,10 @@
+^D:\SOURCE\MY\PROCESSINFOVIEW-\APPPROCESSES\BUILD\CMAKEFILES\D3FF1803345434DAF0F6E53AC5B4ABB9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Source/My/ProcessInfoView-/appProcesses/src -BD:/Source/My/ProcessInfoView-/appProcesses/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Source/My/ProcessInfoView-/appProcesses/build/appProcesses.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
